@@ -223,6 +223,10 @@ Amazon CodeBuild is a fully managed continuous integration (CI) service by AWS t
 
 BUIDSPEC.YML DIRECTS THE JOB TO BE DONE OF CI/CD SIDE.
 
+![image alt]<img width="1625" height="918" alt="Screenshot 2026-03-26 220708" src="https://github.com/user-attachments/assets/2336b670-f671-4567-94f3-920edb4d1cc7" />
+
+
+
 
 
 
