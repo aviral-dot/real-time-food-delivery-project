@@ -223,10 +223,34 @@ Amazon CodeBuild is a fully managed continuous integration (CI) service by AWS t
 
 BUIDSPEC.YML DIRECTS THE JOB TO BE DONE OF CI/CD SIDE.
 
-![image alt]<img width="1625" height="918" alt="Screenshot 2026-03-26 220708" src="https://github.com/user-attachments/assets/2336b670-f671-4567-94f3-920edb4d1cc7" />
+<img width="1625" height="918" alt="Screenshot 2026-03-26 220708" src="https://github.com/user-attachments/assets/2336b670-f671-4567-94f3-920edb4d1cc7" />
 
+<img width="1621" height="922" alt="Screenshot 2026-03-26 220746" src="https://github.com/user-attachments/assets/83505418-e037-49e8-9a7b-8c8ea3ba0a0e" />
 
+<img width="1625" height="912" alt="Screenshot 2026-03-26 220823" src="https://github.com/user-attachments/assets/694e987a-0d9d-4b39-8291-73282930dd05" />
 
+<img width="1628" height="915" alt="Screenshot 2026-03-26 220851" src="https://github.com/user-attachments/assets/843443b0-76f3-42e7-995e-fd9c6a26b74f" />
 
+<img width="1623" height="911" alt="Screenshot 2026-03-26 220949" src="https://github.com/user-attachments/assets/b5170b05-a242-4098-bbad-0747e98a8112" />
 
+<img width="1627" height="910" alt="Screenshot 2026-03-26 221114" src="https://github.com/user-attachments/assets/0664e499-37ab-431c-9ce5-5c07a7a06fce" />
 
+<img width="1621" height="917" alt="Screenshot 2026-03-26 221325" src="https://github.com/user-attachments/assets/f6f92178-1125-4db3-abd2-28981a19ab07" />
+
+<img width="1622" height="915" alt="Screenshot 2026-03-26 221408" src="https://github.com/user-attachments/assets/1a41472a-39e1-4b7a-ae35-fdba3100e6fc" />
+
+<img width="1624" height="911" alt="Screenshot 2026-03-26 221457" src="https://github.com/user-attachments/assets/c8778eb5-1be2-4581-a8ed-0ae9673fbbb0" />
+
+<img width="1622" height="914" alt="Screenshot 2026-03-26 221523" src="https://github.com/user-attachments/assets/37e1ff37-de03-4d10-af21-b144c706d8ca" />
+
+<img width="1628" height="909" alt="Screenshot 2026-03-26 221759" src="https://github.com/user-attachments/assets/5357e7b1-42b9-4d53-8201-d6e1dfec852a" />
+
+<img width="1626" height="915" alt="Screenshot 2026-03-26 221821" src="https://github.com/user-attachments/assets/f71b9ebd-2f95-4472-978e-8f2837c01056" />
+
+<img width="1632" height="919" alt="Screenshot 2026-03-26 221950" src="https://github.com/user-attachments/assets/9ffbd780-f8a6-4fb5-b9ae-8cfea0125c40" />
+
+<img width="1624" height="923" alt="Screenshot 2026-03-26 222337" src="https://github.com/user-attachments/assets/70498fac-454f-4cad-93cc-a787eb588a98" />
+
+<img width="1621" height="917" alt="Screenshot 2026-03-26 222405" src="https://github.com/user-attachments/assets/98c82acf-5791-4dd2-b9bd-f2a988935899" />
+
+<img width="1625" height="918" alt="Screenshot 2026-03-26 222859" src="https://github.com/user-attachments/assets/2170a56d-bac5-4c3b-b20a-9b82d27f1cc0" />
