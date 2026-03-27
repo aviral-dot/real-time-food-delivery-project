@@ -290,18 +290,30 @@ This likely handles real-time data processing or updates
 <img width="1628" height="915" alt="Screenshot 2026-03-26 220851" src="https://github.com/user-attachments/assets/843443b0-76f3-42e7-995e-fd9c6a26b74f" />
 
 **EMR OVERVIEW-------**
-
+**EMR PROCESSING THE APACHE SPARK STREMAING SCRIPT.**
 <img width="1623" height="911" alt="Screenshot 2026-03-26 220949" src="https://github.com/user-attachments/assets/b5170b05-a242-4098-bbad-0747e98a8112" />
 
 
+**🔐 SSH Tunneling Setup for Amazon EMR**
 
+**To establish a secure SSH connection to the EMR master node and enable port forwarding (SSH tunneling) for accessing internal services like:**
+
+**Spark UI**
+**Hadoop Resource Manager**
+**Jupyter / Zeppelin (if configured)**
 <img width="1627" height="910" alt="Screenshot 2026-03-26 221114" src="https://github.com/user-attachments/assets/0664e499-37ab-431c-9ce5-5c07a7a06fce" />
 
+**🔐 Successful SSH Connection to EMR Cluster**
 
+**This image shows a successful SSH connection established to the master node of an Amazon EMR cluster using PuTTY.**
 
 <img width="1621" height="917" alt="Screenshot 2026-03-26 221325" src="https://github.com/user-attachments/assets/f6f92178-1125-4db3-abd2-28981a19ab07" />
 
 **HADOOP OVERVIEW-----**
+
+**⚡ Spark Job Execution on Hadoop YARN**
+
+**This image shows a PySpark streaming job successfully running on a Hadoop cluster managed by Amazon EMR, monitored through the Apache Hadoop YARN Resource Manager UI.**
 
 <img width="1622" height="915" alt="Screenshot 2026-03-26 221408" src="https://github.com/user-attachments/assets/1a41472a-39e1-4b7a-ae35-fdba3100e6fc" />
 
@@ -310,11 +322,11 @@ This likely handles real-time data processing or updates
 <img width="1624" height="911" alt="Screenshot 2026-03-26 221457" src="https://github.com/user-attachments/assets/c8778eb5-1be2-4581-a8ed-0ae9673fbbb0" />
 
 
-
+**PROCESSING IN HADOOP GOING ON**
 <img width="1622" height="914" alt="Screenshot 2026-03-26 221523" src="https://github.com/user-attachments/assets/37e1ff37-de03-4d10-af21-b144c706d8ca" />
 
 **KINESIS OVERVIEW----**
-SENDING DATA TO KINESIS THROUGH VS CODE 
+**SENDING DATA TO KINESIS THROUGH VS CODE**
 
 <img width="1628" height="909" alt="Screenshot 2026-03-26 221759" src="https://github.com/user-attachments/assets/5357e7b1-42b9-4d53-8201-d6e1dfec852a" />
 
@@ -322,15 +334,26 @@ SENDING DATA TO KINESIS THROUGH VS CODE
 
 <img width="1626" height="915" alt="Screenshot 2026-03-26 221821" src="https://github.com/user-attachments/assets/f71b9ebd-2f95-4472-978e-8f2837c01056" />
 
+**📡 Real-Time Data Streaming with Kinesis Shards**
 
+**This image shows real-time data being ingested into an Amazon Kinesis Data Streams stream, where incoming records are distributed across shards for scalable processing.**
 
 <img width="1632" height="919" alt="Screenshot 2026-03-26 221950" src="https://github.com/user-attachments/assets/9ffbd780-f8a6-4fb5-b9ae-8cfea0125c40" />
 
 **REDSHIFT OVERVIEW-----**
 
+**Cluster selected: redshift-cluster-1**
+**Database: dev**
+**Under the database, there's a schema/folder named food_delivery_datamart (highlighted/expanded).**
+**Inside it, a Tables section lists several tables:**
+dimcustomers
+dimdeliveryriders
+dimrestaurants
+factorders (this is the one the cursor is hovering over or recently selected)
+
 <img width="1624" height="923" alt="Screenshot 2026-03-26 222337" src="https://github.com/user-attachments/assets/70498fac-454f-4cad-93cc-a787eb588a98" />
 
-
+**QUERYING THE DATA TO GENERATE INSIGHTS**
 
 
 <img width="1621" height="917" alt="Screenshot 2026-03-26 222405" src="https://github.com/user-attachments/assets/98c82acf-5791-4dd2-b9bd-f2a988935899" />
