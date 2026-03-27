@@ -230,7 +230,57 @@ BUIDSPEC.YML DIRECTS THE JOB TO BE DONE OF CI/CD SIDE.
 
 <img width="1621" height="922" alt="Screenshot 2026-03-26 220746" src="https://github.com/user-attachments/assets/83505418-e037-49e8-9a7b-8c8ea3ba0a0e" />
 
+**📊 Data Modeling Pipeline (Airflow DAG Description)**
 
+This workflow represents a data modeling pipeline orchestrated using Apache Airflow, where raw data is transformed into structured dimensional and fact tables, and finally triggers a downstream streaming process.
+
+**🔹 1. Schema Initialization**
+The pipeline begins with the task:
+create_schema
+This ensures that the required database schema is created before any tables are built.
+**🔹 2. Dimension Tables Creation Flow**
+
+For each dimension table (Delivery Riders, Restaurants, Customers), the pipeline follows a consistent pattern:
+
+Step 1: Drop Existing Table
+drop_dimDeliveryRiders
+drop_dimRestaurants
+drop_dimCustomers
+
+👉 Ensures idempotency by removing old tables if they exist.
+
+Step 2: Create New Table
+create_dimDeliveryRiders
+create_dimRestaurants
+create_dimCustomers
+
+👉 Defines fresh table structures.
+
+Step 3: Load Data
+load_dimDeliveryRiders
+load_dimRestaurants
+load_dimCustomers
+
+👉 Loads processed data (likely from S3 to Redshift using S3ToRedshiftOperator).
+
+**🔹 3. Fact Table Creation Flow**
+
+After dimension tables are ready:
+
+Step 1: Drop Existing Fact Table
+drop_factOrders
+Step 2: Create Fact Table
+create_factOrders
+
+👉 Builds the central fact table (orders) that references dimension tables.
+
+**🔹 4. Final Trigger (Streaming Layer)**
+trigger_spark_streaming_dag
+
+👉 Once all tables are successfully created and loaded:
+
+A downstream Spark Streaming DAG is triggered
+This likely handles real-time data processing or updates
 
 <img width="1625" height="912" alt="Screenshot 2026-03-26 220823" src="https://github.com/user-attachments/assets/694e987a-0d9d-4b39-8291-73282930dd05" />
 
